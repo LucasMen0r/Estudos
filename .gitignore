@@ -81,3 +81,17 @@ cache/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+
+# =========================================================
+# Scala / Scala CLI / Metals / sbt
+# =========================================================
+
+.scala-build/
+.bsp/
+.metals/
+.bloop/
+metals.sbt
+*.class
+
+# target/ já está na seção Rust e também cobre Scala
