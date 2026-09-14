@@ -1,0 +1,83 @@
+# =========================================================
+# Segredos e configurações locais
+# =========================================================
+
+.env
+.env.*
+!.env.example
+.Renviron
+*.pem
+*.key
+
+.databricks/
+.databrickscfg
+
+
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.coverage
+.coverage.*
+htmlcov/
+
+build/
+dist/
+*.egg-info/
+
+
+# =========================================================
+# Rust
+# =========================================================
+
+target/
+**/*.rs.bk
+*.pdb
+rustc-ice-*.txt
+
+
+# =========================================================
+# R
+# =========================================================
+
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+
+.Rproj.user/
+*-Ex.R
+*.Rcheck/
+
+*_cache/
+cache/
+*.utf8.md
+*.knit.md
+
+**/renv/library/
+**/renv/staging/
+
+
+# =========================================================
+# Editores e sistema operacional
+# =========================================================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini
