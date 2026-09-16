@@ -1,0 +1,3218 @@
+[
+ {
+  "pkinteracao": 1,
+  "nomeusuario": "Lucas",
+  "datainsercao": "2026-09-15 08:39:30.926664",
+  "dataatualizacao": "2026-09-15 08:43:47.989167",
+  "mensagem": "Estudando Scala com PostgreSQL",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 2,
+  "nomeusuario": "Lucas",
+  "datainsercao": "2026-09-15 08:53:17.555307",
+  "dataatualizacao": "2026-09-15 08:53:17.594513",
+  "mensagem": "Estudando Scala com PostgreSQL",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 3,
+  "nomeusuario": "Freydis Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.71289",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 61,
+  "nomeusuario": "Ulfric von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.431057",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 62,
+  "nomeusuario": "Ludwig von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.442786",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 64,
+  "nomeusuario": "Octavren Whateley",
+  "datainsercao": "2026-09-15 09:00:35.464123",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 65,
+  "nomeusuario": "Astrid Whateley",
+  "datainsercao": "2026-09-15 09:00:35.474363",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 67,
+  "nomeusuario": "Wilbur Whateley",
+  "datainsercao": "2026-09-15 09:00:35.496881",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 69,
+  "nomeusuario": "Severin Whateley",
+  "datainsercao": "2026-09-15 09:00:35.51763",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 70,
+  "nomeusuario": "Serana Whateley",
+  "datainsercao": "2026-09-15 09:00:35.528497",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 71,
+  "nomeusuario": "Abdul Whateley",
+  "datainsercao": "2026-09-15 09:00:35.538327",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 73,
+  "nomeusuario": "Elspeth Whateley",
+  "datainsercao": "2026-09-15 09:00:35.558518",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 74,
+  "nomeusuario": "Hakon Whateley",
+  "datainsercao": "2026-09-15 09:00:35.568258",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 75,
+  "nomeusuario": "Marius Whateley",
+  "datainsercao": "2026-09-15 09:00:35.57824",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 111,
+  "nomeusuario": "Abdul Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.348253",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 203,
+  "nomeusuario": "Freydis Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:53.19298",
+  "dataatualizacao": "2026-09-16 09:23:53.19298",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 204,
+  "nomeusuario": "Octavren Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:53.232812",
+  "dataatualizacao": "2026-09-16 09:23:53.232812",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 205,
+  "nomeusuario": "Severin von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:53.251004",
+  "dataatualizacao": "2026-09-16 09:23:53.251004",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 206,
+  "nomeusuario": "Ambrose Coldwick",
+  "datainsercao": "2026-09-16 09:23:53.272015",
+  "dataatualizacao": "2026-09-16 09:23:53.272015",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 207,
+  "nomeusuario": "Beatrice Ravenshade",
+  "datainsercao": "2026-09-16 09:23:53.288824",
+  "dataatualizacao": "2026-09-16 09:23:53.288824",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 208,
+  "nomeusuario": "Arvild Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:53.305453",
+  "dataatualizacao": "2026-09-16 09:23:53.305453",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 209,
+  "nomeusuario": "Arvild Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:53.323787",
+  "dataatualizacao": "2026-09-16 09:23:53.323787",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 210,
+  "nomeusuario": "Edmund Coldwick",
+  "datainsercao": "2026-09-16 09:23:53.337065",
+  "dataatualizacao": "2026-09-16 09:23:53.337065",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 211,
+  "nomeusuario": "Eirvald Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:53.351585",
+  "dataatualizacao": "2026-09-16 09:23:53.351585",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 212,
+  "nomeusuario": "Jorvild Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:53.365971",
+  "dataatualizacao": "2026-09-16 09:23:53.365971",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 213,
+  "nomeusuario": "Eisenrik Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:53.380988",
+  "dataatualizacao": "2026-09-16 09:23:53.380988",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 214,
+  "nomeusuario": "Ephraim Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:53.395446",
+  "dataatualizacao": "2026-09-16 09:23:53.395446",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 216,
+  "nomeusuario": "Vespera Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:53.421513",
+  "dataatualizacao": "2026-09-16 09:23:53.421513",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 218,
+  "nomeusuario": "Elias Grimhollow",
+  "datainsercao": "2026-09-16 09:23:53.446619",
+  "dataatualizacao": "2026-09-16 09:23:53.446619",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 221,
+  "nomeusuario": "Valthera Martelo de Cinzas",
+  "datainsercao": "2026-09-16 09:23:53.485212",
+  "dataatualizacao": "2026-09-16 09:23:53.485212",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 215,
+  "nomeusuario": "Beatrice Morrowell",
+  "datainsercao": "2026-09-16 09:23:53.408869",
+  "dataatualizacao": "2026-09-16 09:23:55.938004",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 217,
+  "nomeusuario": "Silas Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:53.433854",
+  "dataatualizacao": "2026-09-16 09:23:56.036168",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 220,
+  "nomeusuario": "Ragnhild Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:53.47212",
+  "dataatualizacao": "2026-09-16 09:23:56.181256",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 219,
+  "nomeusuario": "Helkran Kaltenwacht",
+  "datainsercao": "2026-09-16 09:23:53.459993",
+  "dataatualizacao": "2026-09-16 09:23:56.233407",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 171,
+  "nomeusuario": "Abdul Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.987722",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 173,
+  "nomeusuario": "Elspeth Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.007603",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 174,
+  "nomeusuario": "Hakon Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.017853",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 175,
+  "nomeusuario": "Marius Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.027653",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 177,
+  "nomeusuario": "Ragnar Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.049004",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 178,
+  "nomeusuario": "Cassian Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.060403",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 179,
+  "nomeusuario": "Eleanor Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.070522",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 222,
+  "nomeusuario": "Silas Morrowell",
+  "datainsercao": "2026-09-16 09:23:53.496896",
+  "dataatualizacao": "2026-09-16 09:23:53.496896",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 225,
+  "nomeusuario": "Tabitha Wraithford",
+  "datainsercao": "2026-09-16 09:23:53.534978",
+  "dataatualizacao": "2026-09-16 09:23:53.534978",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 226,
+  "nomeusuario": "Octavren von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:53.547496",
+  "dataatualizacao": "2026-09-16 09:23:53.547496",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 227,
+  "nomeusuario": "Vespera von Graufeld",
+  "datainsercao": "2026-09-16 09:23:53.558889",
+  "dataatualizacao": "2026-09-16 09:23:53.558889",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 228,
+  "nomeusuario": "Silas Wraithford",
+  "datainsercao": "2026-09-16 09:23:53.571134",
+  "dataatualizacao": "2026-09-16 09:23:53.571134",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 229,
+  "nomeusuario": "Octavren von Graufeld",
+  "datainsercao": "2026-09-16 09:23:53.582947",
+  "dataatualizacao": "2026-09-16 09:23:53.582947",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 230,
+  "nomeusuario": "Arvild Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:53.595342",
+  "dataatualizacao": "2026-09-16 09:23:53.595342",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 231,
+  "nomeusuario": "Arvild Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:53.609416",
+  "dataatualizacao": "2026-09-16 09:23:53.609416",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 232,
+  "nomeusuario": "Sigrund Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:53.620701",
+  "dataatualizacao": "2026-09-16 09:23:53.620701",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 233,
+  "nomeusuario": "Edmund Wraithford",
+  "datainsercao": "2026-09-16 09:23:53.633417",
+  "dataatualizacao": "2026-09-16 09:23:53.633417",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 234,
+  "nomeusuario": "Tabitha Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:53.646838",
+  "dataatualizacao": "2026-09-16 09:23:53.646838",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 235,
+  "nomeusuario": "Eirvald Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:53.660123",
+  "dataatualizacao": "2026-09-16 09:23:53.660123",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 236,
+  "nomeusuario": "Freydis Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:53.674021",
+  "dataatualizacao": "2026-09-16 09:23:53.674021",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 237,
+  "nomeusuario": "Mordrath Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:53.687383",
+  "dataatualizacao": "2026-09-16 09:23:53.687383",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 238,
+  "nomeusuario": "Ambrose Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:53.701101",
+  "dataatualizacao": "2026-09-16 09:23:53.701101",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 239,
+  "nomeusuario": "Freydis L\u00e2mina de Gelo",
+  "datainsercao": "2026-09-16 09:23:53.715287",
+  "dataatualizacao": "2026-09-16 09:23:53.715287",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 240,
+  "nomeusuario": "Mordrath Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:53.728609",
+  "dataatualizacao": "2026-09-16 09:23:53.728609",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 241,
+  "nomeusuario": "Tabitha Grimhollow",
+  "datainsercao": "2026-09-16 09:23:53.74153",
+  "dataatualizacao": "2026-09-16 09:23:53.74153",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 242,
+  "nomeusuario": "Lenora Morrowell",
+  "datainsercao": "2026-09-16 09:23:53.754071",
+  "dataatualizacao": "2026-09-16 09:23:53.754071",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 243,
+  "nomeusuario": "Agatha Duskell",
+  "datainsercao": "2026-09-16 09:23:53.766553",
+  "dataatualizacao": "2026-09-16 09:23:53.766553",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 244,
+  "nomeusuario": "Torvann Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:53.781189",
+  "dataatualizacao": "2026-09-16 09:23:53.781189",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 245,
+  "nomeusuario": "Brynja Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:53.795201",
+  "dataatualizacao": "2026-09-16 09:23:53.795201",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 246,
+  "nomeusuario": "Ragnhild Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:53.809017",
+  "dataatualizacao": "2026-09-16 09:23:53.809017",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 247,
+  "nomeusuario": "Dravorn Kaltenwacht",
+  "datainsercao": "2026-09-16 09:23:53.822445",
+  "dataatualizacao": "2026-09-16 09:23:53.822445",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 249,
+  "nomeusuario": "Torvann Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:53.848555",
+  "dataatualizacao": "2026-09-16 09:23:53.848555",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 250,
+  "nomeusuario": "Ingrun Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:53.860334",
+  "dataatualizacao": "2026-09-16 09:23:53.860334",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 251,
+  "nomeusuario": "Freydis Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:53.871891",
+  "dataatualizacao": "2026-09-16 09:23:53.871891",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 252,
+  "nomeusuario": "Haldren Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:53.884551",
+  "dataatualizacao": "2026-09-16 09:23:53.884551",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 253,
+  "nomeusuario": "Vespera L\u00e2mina do Ocaso",
+  "datainsercao": "2026-09-16 09:23:53.897074",
+  "dataatualizacao": "2026-09-16 09:23:53.897074",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 254,
+  "nomeusuario": "Octavren Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:53.909744",
+  "dataatualizacao": "2026-09-16 09:23:53.909744",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 255,
+  "nomeusuario": "Elias Ashcombe",
+  "datainsercao": "2026-09-16 09:23:53.922998",
+  "dataatualizacao": "2026-09-16 09:23:53.922998",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 256,
+  "nomeusuario": "Elias Wraithford",
+  "datainsercao": "2026-09-16 09:23:53.934361",
+  "dataatualizacao": "2026-09-16 09:23:53.934361",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 257,
+  "nomeusuario": "Ingrun Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:53.949063",
+  "dataatualizacao": "2026-09-16 09:23:53.949063",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 259,
+  "nomeusuario": "Balthren Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:53.976751",
+  "dataatualizacao": "2026-09-16 09:23:53.976751",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 260,
+  "nomeusuario": "Lenora Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:53.990107",
+  "dataatualizacao": "2026-09-16 09:23:53.990107",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 261,
+  "nomeusuario": "Haldren Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:54.002731",
+  "dataatualizacao": "2026-09-16 09:23:54.002731",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 262,
+  "nomeusuario": "Ambrose Blackmere",
+  "datainsercao": "2026-09-16 09:23:54.016073",
+  "dataatualizacao": "2026-09-16 09:23:54.016073",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 263,
+  "nomeusuario": "Jorvild Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:54.02926",
+  "dataatualizacao": "2026-09-16 09:23:54.02926",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 264,
+  "nomeusuario": "Silas Ravenshade",
+  "datainsercao": "2026-09-16 09:23:54.043096",
+  "dataatualizacao": "2026-09-16 09:23:54.043096",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 266,
+  "nomeusuario": "Ephraim Duskell",
+  "datainsercao": "2026-09-16 09:23:54.068253",
+  "dataatualizacao": "2026-09-16 09:23:54.068253",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 268,
+  "nomeusuario": "Abner Ashcombe",
+  "datainsercao": "2026-09-16 09:23:54.099931",
+  "dataatualizacao": "2026-09-16 09:23:54.099931",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 269,
+  "nomeusuario": "Beatrice Thornwick",
+  "datainsercao": "2026-09-16 09:23:54.113171",
+  "dataatualizacao": "2026-09-16 09:23:54.113171",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 270,
+  "nomeusuario": "Edmund Thornwick",
+  "datainsercao": "2026-09-16 09:23:54.125916",
+  "dataatualizacao": "2026-09-16 09:23:54.125916",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 271,
+  "nomeusuario": "Ambrose Wraithford",
+  "datainsercao": "2026-09-16 09:23:54.13908",
+  "dataatualizacao": "2026-09-16 09:23:54.13908",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 272,
+  "nomeusuario": "Severin Kaltenwacht",
+  "datainsercao": "2026-09-16 09:23:54.153188",
+  "dataatualizacao": "2026-09-16 09:23:54.153188",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 273,
+  "nomeusuario": "Agatha Blackmere",
+  "datainsercao": "2026-09-16 09:23:54.166936",
+  "dataatualizacao": "2026-09-16 09:23:54.166936",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 274,
+  "nomeusuario": "Helkran von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:54.181663",
+  "dataatualizacao": "2026-09-16 09:23:54.181663",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 275,
+  "nomeusuario": "Ingrun Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:54.195275",
+  "dataatualizacao": "2026-09-16 09:23:54.195275",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 276,
+  "nomeusuario": "Beatrice Grimhollow",
+  "datainsercao": "2026-09-16 09:23:54.207769",
+  "dataatualizacao": "2026-09-16 09:23:54.207769",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 277,
+  "nomeusuario": "Lenora Grimhollow",
+  "datainsercao": "2026-09-16 09:23:54.221333",
+  "dataatualizacao": "2026-09-16 09:23:54.221333",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 279,
+  "nomeusuario": "Elias Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:54.246932",
+  "dataatualizacao": "2026-09-16 09:23:54.246932",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 248,
+  "nomeusuario": "Balthren Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:53.836158",
+  "dataatualizacao": "2026-09-16 09:23:55.842833",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 278,
+  "nomeusuario": "Ragnhild Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:54.234603",
+  "dataatualizacao": "2026-09-16 09:23:55.873151",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 223,
+  "nomeusuario": "Vespera Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:53.509074",
+  "dataatualizacao": "2026-09-16 09:23:55.92276",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 258,
+  "nomeusuario": "Agatha Grimhollow",
+  "datainsercao": "2026-09-16 09:23:53.962861",
+  "dataatualizacao": "2026-09-16 09:23:56.001147",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 280,
+  "nomeusuario": "Abner Thornwick",
+  "datainsercao": "2026-09-16 09:23:54.259585",
+  "dataatualizacao": "2026-09-16 09:23:56.101651",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 267,
+  "nomeusuario": "Eisenrik Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:54.083729",
+  "dataatualizacao": "2026-09-16 09:23:56.118348",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 224,
+  "nomeusuario": "Abner Grimhollow",
+  "datainsercao": "2026-09-16 09:23:53.523043",
+  "dataatualizacao": "2026-09-16 09:23:56.313419",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 281,
+  "nomeusuario": "Torvann Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:54.270834",
+  "dataatualizacao": "2026-09-16 09:23:54.270834",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 283,
+  "nomeusuario": "Ephraim Blackmere",
+  "datainsercao": "2026-09-16 09:23:54.299014",
+  "dataatualizacao": "2026-09-16 09:23:54.299014",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 286,
+  "nomeusuario": "Freydis Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:54.336261",
+  "dataatualizacao": "2026-09-16 09:23:54.336261",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 287,
+  "nomeusuario": "Severin Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:54.34955",
+  "dataatualizacao": "2026-09-16 09:23:54.34955",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 289,
+  "nomeusuario": "Ambrose Ravenshade",
+  "datainsercao": "2026-09-16 09:23:54.374975",
+  "dataatualizacao": "2026-09-16 09:23:54.374975",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 290,
+  "nomeusuario": "Vespera Martelo de Cinzas",
+  "datainsercao": "2026-09-16 09:23:54.387379",
+  "dataatualizacao": "2026-09-16 09:23:54.387379",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 291,
+  "nomeusuario": "Beatrice Blackmere",
+  "datainsercao": "2026-09-16 09:23:54.399005",
+  "dataatualizacao": "2026-09-16 09:23:54.399005",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 292,
+  "nomeusuario": "Freydis Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:54.412338",
+  "dataatualizacao": "2026-09-16 09:23:54.412338",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 293,
+  "nomeusuario": "Severin von Graufeld",
+  "datainsercao": "2026-09-16 09:23:54.429893",
+  "dataatualizacao": "2026-09-16 09:23:54.429893",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 294,
+  "nomeusuario": "Octavren Martelo de Cinzas",
+  "datainsercao": "2026-09-16 09:23:54.441971",
+  "dataatualizacao": "2026-09-16 09:23:54.441971",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 295,
+  "nomeusuario": "Eirvald Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:54.453597",
+  "dataatualizacao": "2026-09-16 09:23:54.453597",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 296,
+  "nomeusuario": "Silas Grimhollow",
+  "datainsercao": "2026-09-16 09:23:54.46509",
+  "dataatualizacao": "2026-09-16 09:23:54.46509",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 297,
+  "nomeusuario": "Octavren Kaltenwacht",
+  "datainsercao": "2026-09-16 09:23:54.47726",
+  "dataatualizacao": "2026-09-16 09:23:54.47726",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 298,
+  "nomeusuario": "Lenora Ravenshade",
+  "datainsercao": "2026-09-16 09:23:54.488912",
+  "dataatualizacao": "2026-09-16 09:23:54.488912",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 299,
+  "nomeusuario": "Freydis Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:54.500132",
+  "dataatualizacao": "2026-09-16 09:23:54.500132",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 300,
+  "nomeusuario": "Brynja Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:54.512228",
+  "dataatualizacao": "2026-09-16 09:23:54.512228",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 301,
+  "nomeusuario": "Sigrund Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:54.52558",
+  "dataatualizacao": "2026-09-16 09:23:54.52558",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 302,
+  "nomeusuario": "Vespera Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:54.536747",
+  "dataatualizacao": "2026-09-16 09:23:54.536747",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 303,
+  "nomeusuario": "Eirvald Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:54.556156",
+  "dataatualizacao": "2026-09-16 09:23:54.556156",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 304,
+  "nomeusuario": "Ragnhild Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:54.569023",
+  "dataatualizacao": "2026-09-16 09:23:54.569023",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 305,
+  "nomeusuario": "Torvann L\u00e2mina de Gelo",
+  "datainsercao": "2026-09-16 09:23:54.580865",
+  "dataatualizacao": "2026-09-16 09:23:54.580865",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 306,
+  "nomeusuario": "Silas Blackmere",
+  "datainsercao": "2026-09-16 09:23:54.592178",
+  "dataatualizacao": "2026-09-16 09:23:54.592178",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 307,
+  "nomeusuario": "Brynja Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:54.603688",
+  "dataatualizacao": "2026-09-16 09:23:54.603688",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 310,
+  "nomeusuario": "Freydis Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:54.641791",
+  "dataatualizacao": "2026-09-16 09:23:54.641791",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 311,
+  "nomeusuario": "Cassivar Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:54.653524",
+  "dataatualizacao": "2026-09-16 09:23:54.653524",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 312,
+  "nomeusuario": "Eisenrik Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:54.665275",
+  "dataatualizacao": "2026-09-16 09:23:54.665275",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 313,
+  "nomeusuario": "Ambrose Grimhollow",
+  "datainsercao": "2026-09-16 09:23:54.677223",
+  "dataatualizacao": "2026-09-16 09:23:54.677223",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 314,
+  "nomeusuario": "Severin L\u00e2mina do Ocaso",
+  "datainsercao": "2026-09-16 09:23:54.689253",
+  "dataatualizacao": "2026-09-16 09:23:54.689253",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 315,
+  "nomeusuario": "Jorvild Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:54.701838",
+  "dataatualizacao": "2026-09-16 09:23:54.701838",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 319,
+  "nomeusuario": "Agatha Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:54.753151",
+  "dataatualizacao": "2026-09-16 09:23:54.753151",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 320,
+  "nomeusuario": "Octavren L\u00e2mina do Ocaso",
+  "datainsercao": "2026-09-16 09:23:54.764511",
+  "dataatualizacao": "2026-09-16 09:23:54.764511",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 321,
+  "nomeusuario": "Dravorn von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:54.776027",
+  "dataatualizacao": "2026-09-16 09:23:54.776027",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 322,
+  "nomeusuario": "Eisenrik von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:54.787052",
+  "dataatualizacao": "2026-09-16 09:23:54.787052",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 323,
+  "nomeusuario": "Agatha Coldwick",
+  "datainsercao": "2026-09-16 09:23:54.798795",
+  "dataatualizacao": "2026-09-16 09:23:54.798795",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 324,
+  "nomeusuario": "Silas Coldwick",
+  "datainsercao": "2026-09-16 09:23:54.810491",
+  "dataatualizacao": "2026-09-16 09:23:54.810491",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 325,
+  "nomeusuario": "Arvild Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:54.821648",
+  "dataatualizacao": "2026-09-16 09:23:54.821648",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 326,
+  "nomeusuario": "Jorvild Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:54.833753",
+  "dataatualizacao": "2026-09-16 09:23:54.833753",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 327,
+  "nomeusuario": "Edmund Ravenshade",
+  "datainsercao": "2026-09-16 09:23:54.847495",
+  "dataatualizacao": "2026-09-16 09:23:54.847495",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 329,
+  "nomeusuario": "Eirvald Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:54.87084",
+  "dataatualizacao": "2026-09-16 09:23:54.87084",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 330,
+  "nomeusuario": "Balthren Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:54.882854",
+  "dataatualizacao": "2026-09-16 09:23:54.882854",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 331,
+  "nomeusuario": "Ingrun Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:54.894814",
+  "dataatualizacao": "2026-09-16 09:23:54.894814",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 332,
+  "nomeusuario": "Mordrath Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:54.905911",
+  "dataatualizacao": "2026-09-16 09:23:54.905911",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 333,
+  "nomeusuario": "Sigrund L\u00e2mina de Gelo",
+  "datainsercao": "2026-09-16 09:23:54.917476",
+  "dataatualizacao": "2026-09-16 09:23:54.917476",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 334,
+  "nomeusuario": "Helkran von Graufeld",
+  "datainsercao": "2026-09-16 09:23:54.929849",
+  "dataatualizacao": "2026-09-16 09:23:54.929849",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 336,
+  "nomeusuario": "Agatha Wraithford",
+  "datainsercao": "2026-09-16 09:23:54.95201",
+  "dataatualizacao": "2026-09-16 09:23:54.95201",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 337,
+  "nomeusuario": "Valthera Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:54.963668",
+  "dataatualizacao": "2026-09-16 09:23:54.963668",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 338,
+  "nomeusuario": "Edmund Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:54.975028",
+  "dataatualizacao": "2026-09-16 09:23:54.975028",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 339,
+  "nomeusuario": "Eisenrik von Graufeld",
+  "datainsercao": "2026-09-16 09:23:54.986363",
+  "dataatualizacao": "2026-09-16 09:23:54.986363",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 309,
+  "nomeusuario": "Vespera Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:54.630184",
+  "dataatualizacao": "2026-09-16 09:23:55.888011",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 316,
+  "nomeusuario": "Severin Martelo de Cinzas",
+  "datainsercao": "2026-09-16 09:23:54.71616",
+  "dataatualizacao": "2026-09-16 09:23:55.969699",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 282,
+  "nomeusuario": "Balthren Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:54.286514",
+  "dataatualizacao": "2026-09-16 09:23:55.985681",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 328,
+  "nomeusuario": "Eirvald Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:54.860132",
+  "dataatualizacao": "2026-09-16 09:23:56.052471",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 335,
+  "nomeusuario": "Haldren Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:54.940472",
+  "dataatualizacao": "2026-09-16 09:23:56.070332",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 284,
+  "nomeusuario": "Dravorn Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:54.311513",
+  "dataatualizacao": "2026-09-16 09:23:56.139486",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 317,
+  "nomeusuario": "Ragnhild Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:54.7278",
+  "dataatualizacao": "2026-09-16 09:23:56.214892",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 318,
+  "nomeusuario": "Ephraim Ravenshade",
+  "datainsercao": "2026-09-16 09:23:54.740944",
+  "dataatualizacao": "2026-09-16 09:23:56.276807",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 285,
+  "nomeusuario": "Balthren von Graufeld",
+  "datainsercao": "2026-09-16 09:23:54.324612",
+  "dataatualizacao": "2026-09-16 09:23:56.330125",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 340,
+  "nomeusuario": "Dravorn Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:54.998925",
+  "dataatualizacao": "2026-09-16 09:23:54.998925",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 341,
+  "nomeusuario": "Ephraim Morrowell",
+  "datainsercao": "2026-09-16 09:23:55.01",
+  "dataatualizacao": "2026-09-16 09:23:55.01",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 342,
+  "nomeusuario": "Jorvild Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:55.020085",
+  "dataatualizacao": "2026-09-16 09:23:55.020085",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 343,
+  "nomeusuario": "Ingrun Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:55.032803",
+  "dataatualizacao": "2026-09-16 09:23:55.032803",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 344,
+  "nomeusuario": "Jorvild Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:55.046415",
+  "dataatualizacao": "2026-09-16 09:23:55.046415",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 345,
+  "nomeusuario": "Tabitha Ravenshade",
+  "datainsercao": "2026-09-16 09:23:55.059511",
+  "dataatualizacao": "2026-09-16 09:23:55.059511",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 346,
+  "nomeusuario": "Severin Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:55.070524",
+  "dataatualizacao": "2026-09-16 09:23:55.070524",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 347,
+  "nomeusuario": "Haldren Guardi\u00e3o do Fiorde",
+  "datainsercao": "2026-09-16 09:23:55.084688",
+  "dataatualizacao": "2026-09-16 09:23:55.084688",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 348,
+  "nomeusuario": "Abner Wraithford",
+  "datainsercao": "2026-09-16 09:23:55.096417",
+  "dataatualizacao": "2026-09-16 09:23:55.096417",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 349,
+  "nomeusuario": "Elias Blackmere",
+  "datainsercao": "2026-09-16 09:23:55.107891",
+  "dataatualizacao": "2026-09-16 09:23:55.107891",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 350,
+  "nomeusuario": "Cassivar Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:55.119234",
+  "dataatualizacao": "2026-09-16 09:23:55.119234",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 351,
+  "nomeusuario": "Sigrund Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:55.131336",
+  "dataatualizacao": "2026-09-16 09:23:55.131336",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 352,
+  "nomeusuario": "Dravorn von Graufeld",
+  "datainsercao": "2026-09-16 09:23:55.143625",
+  "dataatualizacao": "2026-09-16 09:23:55.143625",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 353,
+  "nomeusuario": "Edmund Duskell",
+  "datainsercao": "2026-09-16 09:23:55.154576",
+  "dataatualizacao": "2026-09-16 09:23:55.154576",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 355,
+  "nomeusuario": "Severin Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:55.178357",
+  "dataatualizacao": "2026-09-16 09:23:55.178357",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 356,
+  "nomeusuario": "Arvild Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:55.189588",
+  "dataatualizacao": "2026-09-16 09:23:55.189588",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 357,
+  "nomeusuario": "Haldren Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:55.20091",
+  "dataatualizacao": "2026-09-16 09:23:55.20091",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 358,
+  "nomeusuario": "Edmund Grimhollow",
+  "datainsercao": "2026-09-16 09:23:55.215929",
+  "dataatualizacao": "2026-09-16 09:23:55.215929",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 359,
+  "nomeusuario": "Dravorn Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:55.236277",
+  "dataatualizacao": "2026-09-16 09:23:55.236277",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 360,
+  "nomeusuario": "Brynja Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:55.259755",
+  "dataatualizacao": "2026-09-16 09:23:55.259755",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 361,
+  "nomeusuario": "Mordrath von Nachtfels",
+  "datainsercao": "2026-09-16 09:23:55.273364",
+  "dataatualizacao": "2026-09-16 09:23:55.273364",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 362,
+  "nomeusuario": "Torvann Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:55.285647",
+  "dataatualizacao": "2026-09-16 09:23:55.285647",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 363,
+  "nomeusuario": "Tabitha Coldwick",
+  "datainsercao": "2026-09-16 09:23:55.297152",
+  "dataatualizacao": "2026-09-16 09:23:55.297152",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 364,
+  "nomeusuario": "Eisenrik Kaltenwacht",
+  "datainsercao": "2026-09-16 09:23:55.308686",
+  "dataatualizacao": "2026-09-16 09:23:55.308686",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 365,
+  "nomeusuario": "Ephraim Ashcombe",
+  "datainsercao": "2026-09-16 09:23:55.319753",
+  "dataatualizacao": "2026-09-16 09:23:55.319753",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 366,
+  "nomeusuario": "Abner Duskell",
+  "datainsercao": "2026-09-16 09:23:55.331408",
+  "dataatualizacao": "2026-09-16 09:23:55.331408",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 367,
+  "nomeusuario": "Tabitha Ashcombe",
+  "datainsercao": "2026-09-16 09:23:55.342348",
+  "dataatualizacao": "2026-09-16 09:23:55.342348",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 368,
+  "nomeusuario": "Sigrund Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:55.352992",
+  "dataatualizacao": "2026-09-16 09:23:55.352992",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 369,
+  "nomeusuario": "Mordrath von Graufeld",
+  "datainsercao": "2026-09-16 09:23:55.365178",
+  "dataatualizacao": "2026-09-16 09:23:55.365178",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 370,
+  "nomeusuario": "Torvann Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:55.377659",
+  "dataatualizacao": "2026-09-16 09:23:55.377659",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 371,
+  "nomeusuario": "Arvild Olho da Aurora",
+  "datainsercao": "2026-09-16 09:23:55.388831",
+  "dataatualizacao": "2026-09-16 09:23:55.388831",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 373,
+  "nomeusuario": "Lenora Duskell",
+  "datainsercao": "2026-09-16 09:23:55.414537",
+  "dataatualizacao": "2026-09-16 09:23:55.414537",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 374,
+  "nomeusuario": "Haldren Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:55.426792",
+  "dataatualizacao": "2026-09-16 09:23:55.426792",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 376,
+  "nomeusuario": "Ingrun Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:55.450356",
+  "dataatualizacao": "2026-09-16 09:23:55.450356",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 377,
+  "nomeusuario": "Dravorn Martelo de Cinzas",
+  "datainsercao": "2026-09-16 09:23:55.463883",
+  "dataatualizacao": "2026-09-16 09:23:55.463883",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 379,
+  "nomeusuario": "Beatrice Fenmarsh",
+  "datainsercao": "2026-09-16 09:23:55.494845",
+  "dataatualizacao": "2026-09-16 09:23:55.494845",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 381,
+  "nomeusuario": "Mordrath Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:55.520324",
+  "dataatualizacao": "2026-09-16 09:23:55.520324",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 382,
+  "nomeusuario": "Jorvild L\u00e2mina de Gelo",
+  "datainsercao": "2026-09-16 09:23:55.532088",
+  "dataatualizacao": "2026-09-16 09:23:55.532088",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 383,
+  "nomeusuario": "Arvild Cora\u00e7\u00e3o de Pinheiro",
+  "datainsercao": "2026-09-16 09:23:55.543559",
+  "dataatualizacao": "2026-09-16 09:23:55.543559",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 384,
+  "nomeusuario": "Eirvald Punho de Granito",
+  "datainsercao": "2026-09-16 09:23:55.553926",
+  "dataatualizacao": "2026-09-16 09:23:55.553926",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 385,
+  "nomeusuario": "Ingrun Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:55.567101",
+  "dataatualizacao": "2026-09-16 09:23:55.567101",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 386,
+  "nomeusuario": "Silas Thornwick",
+  "datainsercao": "2026-09-16 09:23:55.578779",
+  "dataatualizacao": "2026-09-16 09:23:55.578779",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 387,
+  "nomeusuario": "Eirvald Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:55.589328",
+  "dataatualizacao": "2026-09-16 09:23:55.589328",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 388,
+  "nomeusuario": "Ambrose Thornwick",
+  "datainsercao": "2026-09-16 09:23:55.601612",
+  "dataatualizacao": "2026-09-16 09:23:55.601612",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 389,
+  "nomeusuario": "Octavren Ferro Sombrio",
+  "datainsercao": "2026-09-16 09:23:55.615453",
+  "dataatualizacao": "2026-09-16 09:23:55.615453",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 390,
+  "nomeusuario": "Ephraim Coldwick",
+  "datainsercao": "2026-09-16 09:23:55.628418",
+  "dataatualizacao": "2026-09-16 09:23:55.628418",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 391,
+  "nomeusuario": "Torvann Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:55.641599",
+  "dataatualizacao": "2026-09-16 09:23:55.641599",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 392,
+  "nomeusuario": "Silas Duskell",
+  "datainsercao": "2026-09-16 09:23:55.653614",
+  "dataatualizacao": "2026-09-16 09:23:55.653614",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 393,
+  "nomeusuario": "Ephraim Grimhollow",
+  "datainsercao": "2026-09-16 09:23:55.666631",
+  "dataatualizacao": "2026-09-16 09:23:55.666631",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 395,
+  "nomeusuario": "Mordrath Coroa de A\u00e7o",
+  "datainsercao": "2026-09-16 09:23:55.692349",
+  "dataatualizacao": "2026-09-16 09:23:55.692349",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 397,
+  "nomeusuario": "Lenora Coldwick",
+  "datainsercao": "2026-09-16 09:23:55.716279",
+  "dataatualizacao": "2026-09-16 09:23:55.716279",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 398,
+  "nomeusuario": "Beatrice Coldwick",
+  "datainsercao": "2026-09-16 09:23:55.728016",
+  "dataatualizacao": "2026-09-16 09:23:55.728016",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 375,
+  "nomeusuario": "Beatrice Duskell",
+  "datainsercao": "2026-09-16 09:23:55.437539",
+  "dataatualizacao": "2026-09-16 09:23:55.953022",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 372,
+  "nomeusuario": "Lenora Thornwick",
+  "datainsercao": "2026-09-16 09:23:55.401751",
+  "dataatualizacao": "2026-09-16 09:23:56.019101",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 380,
+  "nomeusuario": "Ambrose Duskell",
+  "datainsercao": "2026-09-16 09:23:55.50901",
+  "dataatualizacao": "2026-09-16 09:23:56.086733",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 394,
+  "nomeusuario": "Valthera Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:55.680339",
+  "dataatualizacao": "2026-09-16 09:23:56.158965",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 354,
+  "nomeusuario": "Edmund Blackmere",
+  "datainsercao": "2026-09-16 09:23:55.166546",
+  "dataatualizacao": "2026-09-16 09:23:56.254988",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 396,
+  "nomeusuario": "Sigrund Lobo do Norte",
+  "datainsercao": "2026-09-16 09:23:55.70392",
+  "dataatualizacao": "2026-09-16 09:23:56.294064",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 399,
+  "nomeusuario": "Freydis Escudo de Inverno",
+  "datainsercao": "2026-09-16 09:23:55.739591",
+  "dataatualizacao": "2026-09-16 09:23:55.739591",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 400,
+  "nomeusuario": "Valthera Vig\u00edlia Rubra",
+  "datainsercao": "2026-09-16 09:23:55.752485",
+  "dataatualizacao": "2026-09-16 09:23:55.752485",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 401,
+  "nomeusuario": "Sigrund Voz da Montanha",
+  "datainsercao": "2026-09-16 09:23:55.764274",
+  "dataatualizacao": "2026-09-16 09:23:55.764274",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 402,
+  "nomeusuario": "Ragnhild Passo da Geada",
+  "datainsercao": "2026-09-16 09:23:55.777098",
+  "dataatualizacao": "2026-09-16 09:23:55.777098",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 265,
+  "nomeusuario": "Dravorn Punho de Obsidiana",
+  "datainsercao": "2026-09-16 09:23:54.056019",
+  "dataatualizacao": "2026-09-16 09:23:55.805804",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 288,
+  "nomeusuario": "Cassivar Dornkreuz",
+  "datainsercao": "2026-09-16 09:23:54.362865",
+  "dataatualizacao": "2026-09-16 09:23:55.857467",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 378,
+  "nomeusuario": "Torvann Filho da Neve",
+  "datainsercao": "2026-09-16 09:23:55.478517",
+  "dataatualizacao": "2026-09-16 09:23:55.904874",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 308,
+  "nomeusuario": "Ingrun L\u00e2mina de Gelo",
+  "datainsercao": "2026-09-16 09:23:54.615827",
+  "dataatualizacao": "2026-09-16 09:23:56.197",
+  "mensagem": "Dado sintetico | lote=41ce351b-770e-45e4-a34a-53634384b1f7",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 4,
+  "nomeusuario": "Octavren Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.736806",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 6,
+  "nomeusuario": "Alaric Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.762751",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 7,
+  "nomeusuario": "Wilbur Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.774858",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 8,
+  "nomeusuario": "Eirik Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.787639",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 9,
+  "nomeusuario": "Severin Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.800457",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 11,
+  "nomeusuario": "Abdul Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.829246",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 13,
+  "nomeusuario": "Elspeth Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.85529",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 16,
+  "nomeusuario": "Lavinia Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.894362",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 17,
+  "nomeusuario": "Ragnar Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.908637",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 19,
+  "nomeusuario": "Eleanor Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.932347",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 21,
+  "nomeusuario": "Ulfric Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.957579",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 22,
+  "nomeusuario": "Ludwig Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.969004",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 23,
+  "nomeusuario": "Freydis Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:34.979958",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 25,
+  "nomeusuario": "Astrid Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.002821",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 27,
+  "nomeusuario": "Wilbur Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.026804",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 28,
+  "nomeusuario": "Eirik Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.038233",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 29,
+  "nomeusuario": "Severin Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.050548",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 30,
+  "nomeusuario": "Serana Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.069752",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 32,
+  "nomeusuario": "Viggo Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.094637",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 33,
+  "nomeusuario": "Elspeth Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.107423",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 35,
+  "nomeusuario": "Marius Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.132981",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 36,
+  "nomeusuario": "Lavinia Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.145641",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 37,
+  "nomeusuario": "Ragnar Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.160166",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 38,
+  "nomeusuario": "Cassian Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.175179",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 40,
+  "nomeusuario": "Silas Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.19967",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 41,
+  "nomeusuario": "Ulfric Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.211734",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 42,
+  "nomeusuario": "Ludwig Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.224139",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 43,
+  "nomeusuario": "Freydis von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.234701",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 44,
+  "nomeusuario": "Octavren von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.245487",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 47,
+  "nomeusuario": "Wilbur von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.277901",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 48,
+  "nomeusuario": "Eirik von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.289419",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 52,
+  "nomeusuario": "Viggo von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.331422",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 53,
+  "nomeusuario": "Elspeth von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.342377",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 55,
+  "nomeusuario": "Marius von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.363713",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 56,
+  "nomeusuario": "Lavinia von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.37376",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 57,
+  "nomeusuario": "Ragnar von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.3859",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 58,
+  "nomeusuario": "Cassian von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.398264",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 59,
+  "nomeusuario": "Eleanor von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.410088",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 60,
+  "nomeusuario": "Silas von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.420005",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 24,
+  "nomeusuario": "Octavren Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:34.991447",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 10,
+  "nomeusuario": "Serana Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.814939",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 20,
+  "nomeusuario": "Silas Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.944767",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 39,
+  "nomeusuario": "Eleanor Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.186828",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 49,
+  "nomeusuario": "Severin von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.300634",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 12,
+  "nomeusuario": "Viggo Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.842164",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 18,
+  "nomeusuario": "Cassian Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.921209",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 14,
+  "nomeusuario": "Hakon Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.866789",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 46,
+  "nomeusuario": "Alaric von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.267878",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 54,
+  "nomeusuario": "Hakon von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.35276",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 26,
+  "nomeusuario": "Alaric Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.015547",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 51,
+  "nomeusuario": "Abdul von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.321486",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 5,
+  "nomeusuario": "Astrid Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.749853",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 34,
+  "nomeusuario": "Hakon Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.120439",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 31,
+  "nomeusuario": "Abdul Coroa de Cinzas",
+  "datainsercao": "2026-09-15 09:00:35.0827",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 15,
+  "nomeusuario": "Marius Lobo do Norte",
+  "datainsercao": "2026-09-15 09:00:34.877609",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 50,
+  "nomeusuario": "Serana von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.310775",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 45,
+  "nomeusuario": "Astrid von Drakenmoor",
+  "datainsercao": "2026-09-15 09:00:35.257061",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 77,
+  "nomeusuario": "Ragnar Whateley",
+  "datainsercao": "2026-09-15 09:00:35.598695",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 78,
+  "nomeusuario": "Cassian Whateley",
+  "datainsercao": "2026-09-15 09:00:35.610112",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 79,
+  "nomeusuario": "Eleanor Whateley",
+  "datainsercao": "2026-09-15 09:00:35.620012",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 81,
+  "nomeusuario": "Ulfric Whateley",
+  "datainsercao": "2026-09-15 09:00:35.640609",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 84,
+  "nomeusuario": "Octavren Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.677762",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 85,
+  "nomeusuario": "Astrid Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.690755",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 86,
+  "nomeusuario": "Alaric Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.706693",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 88,
+  "nomeusuario": "Eirik Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.728576",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 90,
+  "nomeusuario": "Serana Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.751324",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 91,
+  "nomeusuario": "Abdul Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.762996",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 93,
+  "nomeusuario": "Elspeth Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.785122",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 95,
+  "nomeusuario": "Marius Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.810575",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 96,
+  "nomeusuario": "Lavinia Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.821248",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 97,
+  "nomeusuario": "Ragnar Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.831423",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 98,
+  "nomeusuario": "Cassian Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.842277",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 99,
+  "nomeusuario": "Eleanor Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.853442",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 100,
+  "nomeusuario": "Silas Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.86448",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 101,
+  "nomeusuario": "Ulfric Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.876251",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 102,
+  "nomeusuario": "Ludwig Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.887532",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 89,
+  "nomeusuario": "Severin Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.74054",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 63,
+  "nomeusuario": "Freydis Whateley",
+  "datainsercao": "2026-09-15 09:00:35.453746",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 83,
+  "nomeusuario": "Freydis Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.666609",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 66,
+  "nomeusuario": "Alaric Whateley",
+  "datainsercao": "2026-09-15 09:00:35.485677",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 72,
+  "nomeusuario": "Viggo Whateley",
+  "datainsercao": "2026-09-15 09:00:35.548223",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 94,
+  "nomeusuario": "Hakon Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.798309",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 68,
+  "nomeusuario": "Eirik Whateley",
+  "datainsercao": "2026-09-15 09:00:35.507308",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 87,
+  "nomeusuario": "Wilbur Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.71714",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 92,
+  "nomeusuario": "Viggo Escudo de Ferro",
+  "datainsercao": "2026-09-15 09:00:35.773657",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 82,
+  "nomeusuario": "Ludwig Whateley",
+  "datainsercao": "2026-09-15 09:00:35.652569",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 80,
+  "nomeusuario": "Silas Whateley",
+  "datainsercao": "2026-09-15 09:00:35.630624",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 76,
+  "nomeusuario": "Lavinia Whateley",
+  "datainsercao": "2026-09-15 09:00:35.588821",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=f8e614fc-4800-4308-9be0-57dcd6fa04a0",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 103,
+  "nomeusuario": "Freydis Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.223687",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 104,
+  "nomeusuario": "Octavren Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.258705",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 106,
+  "nomeusuario": "Alaric Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.286325",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 107,
+  "nomeusuario": "Wilbur Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.2986",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 108,
+  "nomeusuario": "Eirik Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.311797",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 109,
+  "nomeusuario": "Severin Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.323025",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 105,
+  "nomeusuario": "Astrid Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.272174",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 113,
+  "nomeusuario": "Elspeth Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.3702",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 116,
+  "nomeusuario": "Lavinia Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.407006",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 117,
+  "nomeusuario": "Ragnar Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.41948",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 119,
+  "nomeusuario": "Eleanor Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.441648",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 121,
+  "nomeusuario": "Ulfric Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.463668",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 122,
+  "nomeusuario": "Ludwig Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.474889",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 123,
+  "nomeusuario": "Freydis von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.485204",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 125,
+  "nomeusuario": "Astrid von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.506869",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 127,
+  "nomeusuario": "Wilbur von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.527053",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 128,
+  "nomeusuario": "Eirik von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.537539",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 129,
+  "nomeusuario": "Severin von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.548773",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 130,
+  "nomeusuario": "Serana von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.559751",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 132,
+  "nomeusuario": "Viggo von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.581966",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 133,
+  "nomeusuario": "Elspeth von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.594803",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 135,
+  "nomeusuario": "Marius von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.618254",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 136,
+  "nomeusuario": "Lavinia von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.628578",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 137,
+  "nomeusuario": "Ragnar von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.639444",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 138,
+  "nomeusuario": "Cassian von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.649169",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 140,
+  "nomeusuario": "Silas von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.66883",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 141,
+  "nomeusuario": "Ulfric von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.678664",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 142,
+  "nomeusuario": "Ludwig von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.689022",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 143,
+  "nomeusuario": "Freydis Marsh",
+  "datainsercao": "2026-09-15 15:55:17.699007",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 144,
+  "nomeusuario": "Octavren Marsh",
+  "datainsercao": "2026-09-15 15:55:17.710474",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 147,
+  "nomeusuario": "Wilbur Marsh",
+  "datainsercao": "2026-09-15 15:55:17.741282",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 148,
+  "nomeusuario": "Eirik Marsh",
+  "datainsercao": "2026-09-15 15:55:17.752685",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 152,
+  "nomeusuario": "Viggo Marsh",
+  "datainsercao": "2026-09-15 15:55:17.794178",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 153,
+  "nomeusuario": "Elspeth Marsh",
+  "datainsercao": "2026-09-15 15:55:17.804368",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 155,
+  "nomeusuario": "Marius Marsh",
+  "datainsercao": "2026-09-15 15:55:17.824963",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 156,
+  "nomeusuario": "Lavinia Marsh",
+  "datainsercao": "2026-09-15 15:55:17.83434",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 157,
+  "nomeusuario": "Ragnar Marsh",
+  "datainsercao": "2026-09-15 15:55:17.845753",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 158,
+  "nomeusuario": "Cassian Marsh",
+  "datainsercao": "2026-09-15 15:55:17.856018",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 159,
+  "nomeusuario": "Eleanor Marsh",
+  "datainsercao": "2026-09-15 15:55:17.865238",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 160,
+  "nomeusuario": "Silas Marsh",
+  "datainsercao": "2026-09-15 15:55:17.874331",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 161,
+  "nomeusuario": "Ulfric Marsh",
+  "datainsercao": "2026-09-15 15:55:17.884013",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 162,
+  "nomeusuario": "Ludwig Marsh",
+  "datainsercao": "2026-09-15 15:55:17.893666",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 164,
+  "nomeusuario": "Octavren Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.912184",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 165,
+  "nomeusuario": "Astrid Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.922044",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 167,
+  "nomeusuario": "Wilbur Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.942757",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 169,
+  "nomeusuario": "Severin Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.965336",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 170,
+  "nomeusuario": "Serana Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.977071",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 110,
+  "nomeusuario": "Serana Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.334154",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 120,
+  "nomeusuario": "Silas Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.452842",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 139,
+  "nomeusuario": "Eleanor von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.658857",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 149,
+  "nomeusuario": "Severin Marsh",
+  "datainsercao": "2026-09-15 15:55:17.763357",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 112,
+  "nomeusuario": "Viggo Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.358892",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 118,
+  "nomeusuario": "Cassian Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.430293",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 114,
+  "nomeusuario": "Hakon Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.381077",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 146,
+  "nomeusuario": "Alaric Marsh",
+  "datainsercao": "2026-09-15 15:55:17.731648",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 154,
+  "nomeusuario": "Hakon Marsh",
+  "datainsercao": "2026-09-15 15:55:17.814308",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 163,
+  "nomeusuario": "Freydis Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.902959",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 126,
+  "nomeusuario": "Alaric von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.517048",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 166,
+  "nomeusuario": "Alaric Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.932644",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 151,
+  "nomeusuario": "Abdul Marsh",
+  "datainsercao": "2026-09-15 15:55:17.784344",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 134,
+  "nomeusuario": "Hakon von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.606767",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 131,
+  "nomeusuario": "Abdul von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.571126",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 168,
+  "nomeusuario": "Eirik Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.953606",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 115,
+  "nomeusuario": "Marius Voz do Abismo",
+  "datainsercao": "2026-09-15 15:55:17.392093",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 150,
+  "nomeusuario": "Serana Marsh",
+  "datainsercao": "2026-09-15 15:55:17.773827",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 145,
+  "nomeusuario": "Astrid Marsh",
+  "datainsercao": "2026-09-15 15:55:17.721449",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 181,
+  "nomeusuario": "Ulfric Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.095669",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 184,
+  "nomeusuario": "Octavren Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.129529",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 185,
+  "nomeusuario": "Astrid Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.144507",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 186,
+  "nomeusuario": "Alaric Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.156531",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 188,
+  "nomeusuario": "Eirik Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.182341",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 190,
+  "nomeusuario": "Serana Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.204245",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 191,
+  "nomeusuario": "Abdul Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.21373",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 193,
+  "nomeusuario": "Elspeth Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.233877",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 195,
+  "nomeusuario": "Marius Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.25463",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 196,
+  "nomeusuario": "Lavinia Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.264398",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 197,
+  "nomeusuario": "Ragnar Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.27424",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 198,
+  "nomeusuario": "Cassian Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.284787",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 199,
+  "nomeusuario": "Eleanor Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.296381",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 200,
+  "nomeusuario": "Silas Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.306477",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 201,
+  "nomeusuario": "Ulfric Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.31685",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 202,
+  "nomeusuario": "Ludwig Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.326767",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 124,
+  "nomeusuario": "Octavren von Nachtwald",
+  "datainsercao": "2026-09-15 15:55:17.496047",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 189,
+  "nomeusuario": "Severin Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.193625",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 183,
+  "nomeusuario": "Freydis Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.118192",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 172,
+  "nomeusuario": "Viggo Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:17.997797",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 194,
+  "nomeusuario": "Hakon Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.24443",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 187,
+  "nomeusuario": "Wilbur Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.16975",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 192,
+  "nomeusuario": "Viggo Portador da Aurora",
+  "datainsercao": "2026-09-15 15:55:18.224196",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 1
+ },
+ {
+  "pkinteracao": 182,
+  "nomeusuario": "Ludwig Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.107723",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 2
+ },
+ {
+  "pkinteracao": 180,
+  "nomeusuario": "Silas Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.083475",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ },
+ {
+  "pkinteracao": 176,
+  "nomeusuario": "Lavinia Olho da Tempestade",
+  "datainsercao": "2026-09-15 15:55:18.037189",
+  "dataatualizacao": "2026-09-16 12:49:44.859999",
+  "mensagem": "Dado sintetico | lote=8707aba6-a7ae-490b-ba95-59ff7e851f74",
+  "tier": 3
+ }
+]
