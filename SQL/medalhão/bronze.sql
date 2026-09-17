@@ -15,3 +15,4 @@ CREATE TABLE IF NOT EXISTS bronze.CargaUsuario (
 -- Necessário para o ON CONFLICT (HashArquivo) usado na ingestão.
 CREATE UNIQUE INDEX IF NOT EXISTS UX_CargaUsuario_HashArquivo
     ON bronze.CargaUsuario(HashArquivo);
+    
