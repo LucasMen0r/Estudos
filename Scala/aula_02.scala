@@ -8,6 +8,14 @@ object Usuarios {
 
   final case class NovoUsuario(nome: String, mensagem: String, tier: Int)
 
+  final case class ResultadoRenda(
+      id: Long,
+      nome: String,
+      rendaBase: Int,
+      tier: Int,
+      alterado: Boolean
+  )
+
   private def variavelObrigatoria(nome: String): String =
     sys.env.get(nome).filter(_.trim.nonEmpty).getOrElse {
       throw new IllegalStateException(
@@ -232,42 +240,139 @@ object Usuarios {
       }
     }
 
-  // Simula o recebimento de uma renda pelo sistema.
-  def atualizarRenda(id: Long, rendaMensal: Int): Boolean = {
-    require(
-      rendaMensal >= 0,
-      "A renda deve ser zero ou um número positivo de moedas de ouro."
-    )
+  def calcularTier(rendaMensal: Int): Int = {
+    require(rendaMensal >= 0, "A renda não pode ser negativa.")
 
-    transacao { conexao =>
-      // Confirma que o cadastro existe e bloqueia a linha.
-      buscarTierComBloqueio(conexao, id).getOrElse {
-        throw new NoSuchElementException(
-          s"Usuário $id não encontrado."
-        )
-      }
+    if (rendaMensal < 2000) 1
+    else if (rendaMensal < 7000) 2
+    else 3
+  }
 
-      val sql = """
-        UPDATE interacao_scala_postgre.Interacao
-        SET
-          RendaMensal = ?,
+  // Recebe a conexão da transação e uma linha já bloqueada.
+  // Não abre outra conexão: renda, tier e histórico são uma única operação.
+  private def gravarRendaETier(
+      conexao: Connection,
+      id: Long,
+      rendaMensal: Int,
+      tierAnterior: Int
+  ): Boolean = {
+    val novoTier = calcularTier(rendaMensal)
+
+    val sql = """
+      UPDATE interacao_scala_postgre.Interacao
+      SET RendaMensal = ?,
+          Tier = ?,
           DataAtualizacao = CURRENT_TIMESTAMP
-        WHERE PkInteracao = ?
-          AND RendaMensal IS DISTINCT FROM ?
+      WHERE PkInteracao = ?
+        AND (RendaMensal IS DISTINCT FROM ? OR Tier IS DISTINCT FROM ?)
+    """
+
+    val linhasAlteradas = Using.resource(conexao.prepareStatement(sql)) { stmt =>
+      stmt.setInt(1, rendaMensal)
+      stmt.setInt(2, novoTier)
+      stmt.setLong(3, id)
+      stmt.setInt(4, rendaMensal)
+      stmt.setInt(5, novoTier)
+      stmt.executeUpdate()
+    }
+
+    if (linhasAlteradas < 0 || linhasAlteradas > 1)
+      throw new IllegalStateException("Quantidade inesperada de cadastros atualizados.")
+
+    if (tierAnterior != novoTier) {
+      if (linhasAlteradas != 1)
+        throw new IllegalStateException("A alteração de tier não foi aplicada.")
+
+      val sqlHistorico = """
+        INSERT INTO interacao_scala_postgre.InteracaoHistorico (
+          FkInteracao, TierAnterior, TierNovo
+        )
+        VALUES (?, ?, ?)
       """
 
-      Using.resource(conexao.prepareStatement(sql)) { stmt =>
-        stmt.setInt(1, rendaMensal)
-        stmt.setLong(2, id)
-        stmt.setInt(3, rendaMensal)
+      Using.resource(conexao.prepareStatement(sqlHistorico)) { stmt =>
+        stmt.setLong(1, id)
+        stmt.setInt(2, tierAnterior)
+        stmt.setInt(3, novoTier)
 
-        stmt.executeUpdate() == 1
+        if (stmt.executeUpdate() != 1)
+          throw new IllegalStateException("A mudança de tier não foi registrada.")
       }
+    }
+
+    linhasAlteradas == 1
+  }
+
+  // Entrada de renda pelo aplicativo: o tier é derivado automaticamente.
+  // Sem mudanças de renda ou tier, retorna false e preserva a data anterior.
+  def atualizarRenda(id: Long, rendaMensal: Int): Boolean = {
+    require(id > 0, "O ID deve ser positivo.")
+    require(rendaMensal >= 0, "A renda não pode ser negativa.")
+
+    transacao { conexao =>
+      val tierAnterior = buscarTierComBloqueio(conexao, id).getOrElse {
+        throw new NoSuchElementException(s"Usuário $id não encontrado.")
+      }
+
+      gravarRendaETier(conexao, id, rendaMensal, tierAnterior)
+    }
+  }
+
+  // Calcula a renda pelo nome e pelo ID reais do cadastro.
+  // O nome é lido com bloqueio para evitar alterações concorrentes no cálculo.
+  def aplicarRendaCalculada(id: Long): ResultadoRenda = {
+    require(id > 0, "O ID deve ser positivo.")
+
+    transacao { conexao =>
+      val sql = """
+        SELECT NomeUsuario, Tier
+        FROM interacao_scala_postgre.Interacao
+        WHERE PkInteracao = ?
+        FOR UPDATE
+      """
+
+      val (nome, tierAnterior) =
+        Using.resource(conexao.prepareStatement(sql)) { stmt =>
+          stmt.setLong(1, id)
+
+          Using.resource(stmt.executeQuery()) { resultado =>
+            if (!resultado.next())
+              throw new NoSuchElementException(s"Usuário $id não encontrado.")
+
+            (resultado.getString("NomeUsuario"), resultado.getInt("Tier"))
+          }
+        }
+
+      val renda = calcularRenda(nome, id)
+      val alterado = gravarRendaETier(conexao, id, renda, tierAnterior)
+
+      ResultadoRenda(id, nome, renda, calcularTier(renda), alterado)
     }
   }
 }
 
-@main def testarUsuarios(): Unit = {
+// Renda-base: letras (sem espaços ou pontuação) x 15 x ID da origem.
+// Os ajustes por ID pertencem à transformação da camada silver.
+def calcularRenda(nome: String, id: Long): Int = {
+  require(nome != null && nome.trim.nonEmpty, "O nome não pode ficar vazio.")
+  require(id > 0, "O ID deve ser positivo.")
+
+  val quantidadeLetras = nome.count(_.isLetter)
+
+  val renda = BigInt(quantidadeLetras) * 15 * id
+
+  require(
+    renda <= BigInt(Int.MaxValue),
+    "A renda ultrapassou o limite de INTEGER."
+  )
+
+  renda.toInt
+}
+
+// Exercício anterior preservado: cria cadastros e sorteia tiers.
+// Não é chamado pelo @main atual e não aplica a nova regra de renda.
+// Depois de usá-lo explicitamente, execute testarUsuarios para aplicar a regra.
+def gerarUsuariosSinteticosLegado(): Unit = {
   val random = new scala.util.Random(42L)
 
   // Identifica os registros criados nesta execução.
@@ -376,4 +481,37 @@ object Usuarios {
   }
 
   println(s"Atualizações repetidas sem mudança: $semAlteracao")
+}
+
+// Requer a coluna RendaMensal NUMERIC com CHECK (RendaMensal >= 0) na origem.
+// Atualiza somente cadastros existentes. Cada usuário tem sua própria transação.
+// Exporte um novo snapshot após concluir para alimentar bronze, silver e gold.
+@main def testarUsuarios(): Unit = {
+  val ids = Usuarios.listarIdsUsuarios()
+
+  if (ids.isEmpty) {
+    println("Nenhum usuário encontrado. Nenhuma alteração realizada.")
+  } else {
+    val resultados = ids.map { id =>
+      val resultado = Usuarios.aplicarRendaCalculada(id)
+
+      println(
+        s"${resultado.nome} (ID ${resultado.id}): " +
+        s"renda-base ${resultado.rendaBase} septims; tier ${resultado.tier}; " +
+        s"alterado=${resultado.alterado}"
+      )
+
+      resultado
+    }
+
+    val alterados = resultados.count(_.alterado)
+    println(s"Usuários encontrados: ${resultados.size}")
+    println(s"Cadastros alterados: $alterados")
+    println(s"Cadastros já consistentes: ${resultados.size - alterados}")
+
+    for (tier <- 1 to 3) {
+      val quantidade = resultados.count(_.tier == tier)
+      println(s"Tier $tier: $quantidade usuários")
+    }
+  }
 }

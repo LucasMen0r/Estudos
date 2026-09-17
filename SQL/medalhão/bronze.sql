@@ -16,3 +16,7 @@ CREATE TABLE IF NOT EXISTS bronze.CargaUsuario (
 CREATE UNIQUE INDEX IF NOT EXISTS UX_CargaUsuario_HashArquivo
     ON bronze.CargaUsuario(HashArquivo);
     
+
+
+
+select * from bronze.CargaUsuario;

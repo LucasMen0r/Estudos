@@ -28,10 +28,25 @@ create table if not exists gold.FatoUsuarioSnapshot (
     Tier smallint not null
         check (Tier IN (1, 2, 3)),
 
-    RendaMensal numeric(14, 2)
+    RendaMensalAnterior numeric(14, 2)
         check (
-            RendaMensal >= 0
-            and RendaMensal < 'Infinity'::numeric
+            RendaMensalAnterior >= 0
+            and RendaMensalAnterior < 'Infinity'::numeric
+        ),
+
+    RendaMensalNova numeric(14, 2)
+        check (
+            RendaMensalNova >= 0
+            and RendaMensalNova < 'Infinity'::numeric
+        ),
+
+    RegraRenda text
+        check (
+            RegraRenda in (
+                'AUMENTO_200_POR_CENTO',
+                'REDUCAO_10_POR_CENTO',
+                'SEM_ALTERACAO'
+            )
         ),
 
     DataAtualizacaoOrigem timestamp without time zone not null,
@@ -40,6 +55,31 @@ create table if not exists gold.FatoUsuarioSnapshot (
     constraint FatoUsuarioSnapshotCargaUnica
         unique (SkUsuario, CargaBronze)
 );
+
+-- Compatibilidade com a fato criada antes das novas regras de renda.
+ALTER TABLE gold.FatoUsuarioSnapshot
+    ADD COLUMN IF NOT EXISTS RendaMensalAnterior numeric(14, 2)
+        CHECK (
+            RendaMensalAnterior >= 0
+            AND RendaMensalAnterior < 'Infinity'::numeric
+        );
+
+ALTER TABLE gold.FatoUsuarioSnapshot
+    ADD COLUMN IF NOT EXISTS RendaMensalNova numeric(14, 2)
+        CHECK (
+            RendaMensalNova >= 0
+            AND RendaMensalNova < 'Infinity'::numeric
+        );
+
+ALTER TABLE gold.FatoUsuarioSnapshot
+    ADD COLUMN IF NOT EXISTS RegraRenda text
+        CHECK (
+            RegraRenda IN (
+                'AUMENTO_200_POR_CENTO',
+                'REDUCAO_10_POR_CENTO',
+                'SEM_ALTERACAO'
+            )
+        );
 
 
 
@@ -89,7 +129,9 @@ INSERT INTO gold.FatoUsuarioSnapshot (
     SkUsuario,
     CargaBronze,
     Tier,
-    RendaMensal,
+    RendaMensalAnterior,
+    RendaMensalNova,
+    RegraRenda,
     DataAtualizacaoOrigem,
     DataIngestao
 )
@@ -99,6 +141,8 @@ SELECT
     s.CargaBronze,
     s.Tier,
     s.RendaMensal,
+    s.RendaMensalNova,
+    s.RegraRenda,
     s.DataAtualizacaoOrigem,
     b.DataIngestao
 FROM silver.UsuarioSnapshot AS s
@@ -107,7 +151,11 @@ JOIN gold.DimUsuario AS d
 JOIN bronze.CargaUsuario AS b
     ON b.CargaBronze = s.CargaBronze
 WHERE TRUE
-ON CONFLICT (SkObservacao) DO NOTHING;
+ON CONFLICT (SkObservacao)
+DO UPDATE SET
+    RendaMensalAnterior = EXCLUDED.RendaMensalAnterior,
+    RendaMensalNova = EXCLUDED.RendaMensalNova,
+    RegraRenda = EXCLUDED.RegraRenda;
 
 COMMIT;
 
@@ -124,9 +172,13 @@ SELECT DISTINCT ON (f.SkUsuario)
     f.SkObservacao,
     f.CargaBronze,
     f.Tier,
-    f.RendaMensal,
+    -- Mantém a coluna legada RendaMensal como a renda vigente.
+    f.RendaMensalNova AS RendaMensal,
     f.DataAtualizacaoOrigem,
-    f.DataIngestao
+    f.DataIngestao,
+    f.RendaMensalAnterior,
+    f.RendaMensalNova,
+    f.RegraRenda
 FROM gold.FatoUsuarioSnapshot AS f
 JOIN gold.DimUsuario AS d
     ON d.SkUsuario = f.SkUsuario
@@ -147,11 +199,33 @@ SELECT
         2
     ) AS PercentualUsuarios,
 
-    COUNT(RendaMensal) AS UsuariosComRendaInformada,
+    COUNT(RendaMensalNova) AS UsuariosComRendaInformada,
 
-    ROUND(AVG(RendaMensal), 2) AS RendaMedia
+    ROUND(AVG(RendaMensalNova), 2) AS RendaMedia
 FROM gold.UsuarioAtual
 GROUP BY Tier;
+
+-- Consulta de auditoria: compara a renda recebida com a renda transformada.
+CREATE OR REPLACE VIEW gold.ComparativoRendaAtual AS
+SELECT
+    SkUsuario,
+    IdUsuarioOrigem,
+    NomeUsuario,
+    RendaMensalAnterior,
+    RendaMensalNova,
+    RendaMensalNova - RendaMensalAnterior AS DiferencaRenda,
+    CASE
+        WHEN RendaMensalAnterior IS NULL OR RendaMensalAnterior = 0 THEN NULL
+        ELSE ROUND(
+            100.0 * (RendaMensalNova - RendaMensalAnterior)
+            / RendaMensalAnterior,
+            2
+        )
+    END AS PercentualVariacao,
+    RegraRenda,
+    DataAtualizacaoOrigem,
+    DataIngestao
+FROM gold.UsuarioAtual;
 
 
 
@@ -163,5 +237,9 @@ SELECT
 SELECT *
 FROM gold.ResumoTierAtual
 ORDER BY Tier;
+
+SELECT *
+FROM gold.ComparativoRendaAtual
+ORDER BY IdUsuarioOrigem;
 
 
