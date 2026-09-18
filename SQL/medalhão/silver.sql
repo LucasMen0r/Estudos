@@ -165,3 +165,29 @@ select
     RegraRenda
 from silver.UsuarioSnapshot
 order by CargaBronze, IdUsuarioOrigem;
+
+
+
+select * from silver.UsuarioSnapshot;
+
+
+SELECT
+    COUNT(*) AS Total,
+    COUNT(RendaMensal) AS ComRendaMensal,
+    COUNT(RendaMensalNova) AS ComRendaMensalNova,
+    COUNT(RegraRenda) AS ComRegraRenda
+FROM silver.UsuarioSnapshot;
+
+
+SELECT
+    RegraRenda,
+    COUNT(*) AS Quantidade,
+    COUNT(RendaMensal) AS ComRendaMensal,
+    COUNT(RendaMensalNova) AS ComRendaMensalNova,
+    MIN(RendaMensal) AS MenorRenda,
+    MAX(RendaMensal) AS MaiorRenda,
+    MIN(RendaMensalNova) AS MenorRendaNova,
+    MAX(RendaMensalNova) AS MaiorRendaNova
+FROM silver.UsuarioSnapshot
+GROUP BY RegraRenda
+ORDER BY Quantidade DESC;

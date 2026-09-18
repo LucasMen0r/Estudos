@@ -161,8 +161,6 @@ COMMIT;
 
 
 
-
-
 -- Uma observação por usuário: a mais recente conhecida.
 CREATE OR REPLACE VIEW gold.UsuarioAtual AS
 SELECT DISTINCT ON (f.SkUsuario)
@@ -243,3 +241,20 @@ FROM gold.ComparativoRendaAtual
 ORDER BY IdUsuarioOrigem;
 
 
+
+VACUUM (ANALYZE) gold.DimUsuario;
+VACUUM (ANALYZE) gold.FatoUsuarioSnapshot;
+
+
+
+SELECT *
+FROM gold.UsuarioAtual
+ORDER BY IdUsuarioOrigem;
+
+SELECT *
+FROM gold.ResumoTierAtual
+ORDER BY Tier;
+
+SELECT *
+FROM gold.ComparativoRendaAtual
+ORDER BY IdUsuarioOrigem;
