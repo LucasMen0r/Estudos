@@ -95,3 +95,5 @@ metals.sbt
 *.class
 
 # target/ já está na seção Rust e também cobre Scala
+
+.databricks
