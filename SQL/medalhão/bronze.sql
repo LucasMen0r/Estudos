@@ -1,22 +1,11 @@
-CREATE SCHEMA IF NOT EXISTS bronze;
+create schema if not exists medalhao;
 
-CREATE TABLE IF NOT EXISTS bronze.CargaUsuario (
-    CargaBronze UUID PRIMARY KEY,
-    NomeArquivo text NOT NULL,
-    HashArquivo text NOT NULL,
-    DataIngestao timestamp without time zone NOT NULL
+CREATE TABLE IF NOT EXISTS medalhao.Bronze (
+    CargaBronze STRING PRIMARY KEY,
+    NomeArquivo STRING NOT NULL,
+    HashArquivo STRING NOT NULL,
+    DataIngestao TIMESTAMP NOT NULL
         DEFAULT CURRENT_TIMESTAMP,
-    DadoBruto jsonb NOT NULL,
-
-    CONSTRAINT CargaUsuarioLista
-        CHECK (jsonb_typeof(DadoBruto) = 'array')
-);
-
--- Necessário para o ON CONFLICT (HashArquivo) usado na ingestão.
-CREATE UNIQUE INDEX IF NOT EXISTS UX_CargaUsuario_HashArquivo
-    ON bronze.CargaUsuario(HashArquivo);
-    
-
-
-
-select * from bronze.CargaUsuario;
+    DadoBruto VARIANT NOT NULL
+)
+TBLPROPERTIES ('delta.feature.allowColumnDefaults' = 'supported');

@@ -1,11 +1,11 @@
-create schema if not exists gold;
+use schema medalhao;
 
 create table if not exists gold.DimUsuario (
     SkUsuario bigint generated always as identity primary key,
 
-    IdUsuarioOrigem bigint not null unique,
+    IdUsuarioOrigem bigint not null,
 
-    NomeUsuario text not null
+    NomeUsuario STRING not null
         check (btrim(NomeUsuario) <> ''),
 
     -- Tier mais recente conhecido.
@@ -15,32 +15,25 @@ create table if not exists gold.DimUsuario (
 
 create table if not exists gold.FatoUsuarioSnapshot (
     -- Mantém a identificação da observação recebida da silver.
-    SkObservacao bigint PRIMARY KEY
-        REFERENCES silver.UsuarioSnapshot(SkObservacao),
+    SkObservacao bigint PRIMARY KEY,
 
     SkUsuario bigint not null
         REFERENCES gold.DimUsuario(SkUsuario),
 
-    CargaBronze UUID not null
+    CargaBronze STRING not null
         REFERENCES bronze.CargaUsuario(CargaBronze),
 
     -- Valores históricos desta observação.
     Tier smallint not null
         check (Tier IN (1, 2, 3)),
 
-    RendaMensalAnterior numeric(14, 2)
-        check (
-            RendaMensalAnterior >= 0
-            and RendaMensalAnterior < 'Infinity'::numeric
-        ),
+    RendaMensalAnterior DECIMAL(14, 2)
+        check (RendaMensalAnterior >= 0),
 
-    RendaMensalNova numeric(14, 2)
-        check (
-            RendaMensalNova >= 0
-            and RendaMensalNova < 'Infinity'::numeric
-        ),
+    RendaMensalNova DECIMAL(14, 2)
+        check (RendaMensalNova >= 0),
 
-    RegraRenda text
+    RegraRenda STRING
         check (
             RegraRenda in (
                 'AUMENTO_200_POR_CENTO',
@@ -49,82 +42,70 @@ create table if not exists gold.FatoUsuarioSnapshot (
             )
         ),
 
-    DataAtualizacaoOrigem timestamp without time zone not null,
-    DataIngestao timestamp without time zone not null,
+    DataAtualizacaoOrigem TIMESTAMP not null,
+    DataIngestao TIMESTAMP not null,
 
-    constraint FatoUsuarioSnapshotCargaUnica
-        unique (SkUsuario, CargaBronze)
+    FOREIGN KEY (SkObservacao) REFERENCES silver.UsuarioSnapshot(SkObservacao)
 );
-
--- Compatibilidade com a fato criada antes das novas regras de renda.
-ALTER TABLE gold.FatoUsuarioSnapshot
-    ADD COLUMN IF NOT EXISTS RendaMensalAnterior numeric(14, 2)
-        CHECK (
-            RendaMensalAnterior >= 0
-            AND RendaMensalAnterior < 'Infinity'::numeric
-        );
-
-ALTER TABLE gold.FatoUsuarioSnapshot
-    ADD COLUMN IF NOT EXISTS RendaMensalNova numeric(14, 2)
-        CHECK (
-            RendaMensalNova >= 0
-            AND RendaMensalNova < 'Infinity'::numeric
-        );
-
-ALTER TABLE gold.FatoUsuarioSnapshot
-    ADD COLUMN IF NOT EXISTS RegraRenda text
-        CHECK (
-            RegraRenda IN (
-                'AUMENTO_200_POR_CENTO',
-                'REDUCAO_10_POR_CENTO',
-                'SEM_ALTERACAO'
-            )
-        );
-
-
-
 
 select * from gold.DimUsuario;
 
-BEGIN;
-
 -- Seleciona o cadastro mais recente conhecido de cada usuário.
 WITH UltimoCadastro AS (
-    SELECT DISTINCT ON (s.IdUsuarioOrigem)
+    SELECT
         s.IdUsuarioOrigem,
         s.NomeUsuario,
-        s.Tier
+        s.Tier,
+        ROW_NUMBER() OVER (
+            PARTITION BY s.IdUsuarioOrigem
+            ORDER BY
+                s.DataAtualizacaoOrigem DESC,
+                b.DataIngestao DESC NULLS LAST,
+                s.SkObservacao DESC
+        ) AS rn
     FROM silver.UsuarioSnapshot AS s
     JOIN bronze.CargaUsuario AS b
         ON b.CargaBronze = s.CargaBronze
-    ORDER BY
-        s.IdUsuarioOrigem,
-        s.DataAtualizacaoOrigem DESC,
-        b.DataIngestao DESC NULLS LAST,
-        s.SkObservacao DESC
 )
-INSERT INTO gold.DimUsuario AS d (
-    IdUsuarioOrigem,
-    NomeUsuario,
-    Tier
+MERGE INTO gold.DimUsuario AS d
+USING (SELECT IdUsuarioOrigem, NomeUsuario, Tier FROM UltimoCadastro WHERE rn = 1) AS u
+ON d.IdUsuarioOrigem = u.IdUsuarioOrigem
+WHEN MATCHED AND (
+    d.NomeUsuario IS DISTINCT FROM u.NomeUsuario
+    OR d.Tier IS DISTINCT FROM u.Tier
 )
-SELECT
-    IdUsuarioOrigem,
-    NomeUsuario,
-    Tier
-FROM UltimoCadastro
-WHERE TRUE
-ON CONFLICT (IdUsuarioOrigem)
-DO UPDATE SET
-    NomeUsuario = EXCLUDED.NomeUsuario,
-    Tier = EXCLUDED.Tier
-WHERE
-    (d.NomeUsuario, d.Tier)
-    IS DISTINCT FROM
-    (EXCLUDED.NomeUsuario, EXCLUDED.Tier);
+    THEN UPDATE SET
+        NomeUsuario = u.NomeUsuario,
+        Tier = u.Tier
+WHEN NOT MATCHED
+    THEN INSERT (IdUsuarioOrigem, NomeUsuario, Tier)
+    VALUES (u.IdUsuarioOrigem, u.NomeUsuario, u.Tier);
 
 -- Carrega todas as observações ainda não presentes na gold.
-INSERT INTO gold.FatoUsuarioSnapshot (
+MERGE INTO gold.FatoUsuarioSnapshot AS f
+USING (
+    SELECT
+        s.SkObservacao,
+        d.SkUsuario,
+        s.CargaBronze,
+        s.Tier,
+        s.RendaMensal AS RendaMensalAnterior,
+        s.RendaMensalNova,
+        s.RegraRenda,
+        s.DataAtualizacaoOrigem,
+        b.DataIngestao
+    FROM silver.UsuarioSnapshot AS s
+    JOIN gold.DimUsuario AS d
+        ON d.IdUsuarioOrigem = s.IdUsuarioOrigem
+    JOIN bronze.CargaUsuario AS b
+        ON b.CargaBronze = s.CargaBronze
+) AS src
+ON f.SkObservacao = src.SkObservacao
+WHEN MATCHED THEN UPDATE SET
+    RendaMensalAnterior = src.RendaMensalAnterior,
+    RendaMensalNova = src.RendaMensalNova,
+    RegraRenda = src.RegraRenda
+WHEN NOT MATCHED THEN INSERT (
     SkObservacao,
     SkUsuario,
     CargaBronze,
@@ -135,56 +116,61 @@ INSERT INTO gold.FatoUsuarioSnapshot (
     DataAtualizacaoOrigem,
     DataIngestao
 )
-SELECT
-    s.SkObservacao,
-    d.SkUsuario,
-    s.CargaBronze,
-    s.Tier,
-    s.RendaMensal,
-    s.RendaMensalNova,
-    s.RegraRenda,
-    s.DataAtualizacaoOrigem,
-    b.DataIngestao
-FROM silver.UsuarioSnapshot AS s
-JOIN gold.DimUsuario AS d
-    ON d.IdUsuarioOrigem = s.IdUsuarioOrigem
-JOIN bronze.CargaUsuario AS b
-    ON b.CargaBronze = s.CargaBronze
-WHERE TRUE
-ON CONFLICT (SkObservacao)
-DO UPDATE SET
-    RendaMensalAnterior = EXCLUDED.RendaMensalAnterior,
-    RendaMensalNova = EXCLUDED.RendaMensalNova,
-    RegraRenda = EXCLUDED.RegraRenda;
-
-COMMIT;
-
-
+VALUES (
+    src.SkObservacao,
+    src.SkUsuario,
+    src.CargaBronze,
+    src.Tier,
+    src.RendaMensalAnterior,
+    src.RendaMensalNova,
+    src.RegraRenda,
+    src.DataAtualizacaoOrigem,
+    src.DataIngestao
+);
 
 -- Uma observação por usuário: a mais recente conhecida.
 CREATE OR REPLACE VIEW gold.UsuarioAtual AS
-SELECT DISTINCT ON (f.SkUsuario)
-    f.SkUsuario,
-    d.IdUsuarioOrigem,
-    d.NomeUsuario,
-    f.SkObservacao,
-    f.CargaBronze,
-    f.Tier,
-    -- Mantém a coluna legada RendaMensal como a renda vigente.
-    f.RendaMensalNova AS RendaMensal,
-    f.DataAtualizacaoOrigem,
-    f.DataIngestao,
-    f.RendaMensalAnterior,
-    f.RendaMensalNova,
-    f.RegraRenda
-FROM gold.FatoUsuarioSnapshot AS f
-JOIN gold.DimUsuario AS d
-    ON d.SkUsuario = f.SkUsuario
-ORDER BY
-    f.SkUsuario,
-    f.DataAtualizacaoOrigem DESC,
-    f.DataIngestao DESC,
-    f.SkObservacao DESC;
+WITH ranked AS (
+    SELECT
+        f.SkUsuario,
+        d.IdUsuarioOrigem,
+        d.NomeUsuario,
+        f.SkObservacao,
+        f.CargaBronze,
+        f.Tier,
+        -- Mantém a coluna legada RendaMensal como a renda vigente.
+        f.RendaMensalNova AS RendaMensal,
+        f.DataAtualizacaoOrigem,
+        f.DataIngestao,
+        f.RendaMensalAnterior,
+        f.RendaMensalNova,
+        f.RegraRenda,
+        ROW_NUMBER() OVER (
+            PARTITION BY f.SkUsuario
+            ORDER BY
+                f.DataAtualizacaoOrigem DESC,
+                f.DataIngestao DESC,
+                f.SkObservacao DESC
+        ) AS rn
+    FROM gold.FatoUsuarioSnapshot AS f
+    JOIN gold.DimUsuario AS d
+        ON d.SkUsuario = f.SkUsuario
+)
+SELECT
+    SkUsuario,
+    IdUsuarioOrigem,
+    NomeUsuario,
+    SkObservacao,
+    CargaBronze,
+    Tier,
+    RendaMensal,
+    DataAtualizacaoOrigem,
+    DataIngestao,
+    RendaMensalAnterior,
+    RendaMensalNova,
+    RegraRenda
+FROM ranked
+WHERE rn = 1;
 
 -- Indicadores calculados sobre usuários, não sobre todas as cargas.
 CREATE OR REPLACE VIEW gold.ResumoTierAtual AS
@@ -225,8 +211,6 @@ SELECT
     DataIngestao
 FROM gold.UsuarioAtual;
 
-
-
 SELECT
     (SELECT COUNT(*) FROM gold.DimUsuario) AS Usuarios,
     (SELECT COUNT(*) FROM gold.FatoUsuarioSnapshot) AS Observacoes,
@@ -239,13 +223,6 @@ ORDER BY Tier;
 SELECT *
 FROM gold.ComparativoRendaAtual
 ORDER BY IdUsuarioOrigem;
-
-
-
-VACUUM (ANALYZE) gold.DimUsuario;
-VACUUM (ANALYZE) gold.FatoUsuarioSnapshot;
-
-
 
 SELECT *
 FROM gold.UsuarioAtual
