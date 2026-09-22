@@ -1,4 +1,5 @@
-use schema medalhao;
+use catalog workspace;
+create schema if not exists gold;
 
 create table if not exists gold.DimUsuario (
     SkUsuario bigint generated always as identity primary key,
@@ -21,7 +22,7 @@ create table if not exists gold.FatoUsuarioSnapshot (
         REFERENCES gold.DimUsuario(SkUsuario),
 
     CargaBronze STRING not null
-        REFERENCES bronze.CargaUsuario(CargaBronze),
+        REFERENCES workspace.medalhao.Bronze(CargaBronze),
 
     -- Valores históricos desta observação.
     Tier smallint not null
@@ -45,7 +46,7 @@ create table if not exists gold.FatoUsuarioSnapshot (
     DataAtualizacaoOrigem TIMESTAMP not null,
     DataIngestao TIMESTAMP not null,
 
-    FOREIGN KEY (SkObservacao) REFERENCES silver.UsuarioSnapshot(SkObservacao)
+    FOREIGN KEY (SkObservacao) REFERENCES workspace.silver.UsuarioSnapshot(SkObservacao)
 );
 
 select * from gold.DimUsuario;
@@ -63,8 +64,8 @@ WITH UltimoCadastro AS (
                 b.DataIngestao DESC NULLS LAST,
                 s.SkObservacao DESC
         ) AS rn
-    FROM silver.UsuarioSnapshot AS s
-    JOIN bronze.CargaUsuario AS b
+    FROM workspace.silver.UsuarioSnapshot AS s
+    JOIN workspace.medalhao.Bronze AS b
         ON b.CargaBronze = s.CargaBronze
 )
 MERGE INTO gold.DimUsuario AS d
@@ -94,10 +95,10 @@ USING (
         s.RegraRenda,
         s.DataAtualizacaoOrigem,
         b.DataIngestao
-    FROM silver.UsuarioSnapshot AS s
+    FROM workspace.silver.UsuarioSnapshot AS s
     JOIN gold.DimUsuario AS d
         ON d.IdUsuarioOrigem = s.IdUsuarioOrigem
-    JOIN bronze.CargaUsuario AS b
+    JOIN workspace.medalhao.Bronze AS b
         ON b.CargaBronze = s.CargaBronze
 ) AS src
 ON f.SkObservacao = src.SkObservacao

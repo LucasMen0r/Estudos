@@ -1,19 +1,88 @@
-# This is a Declarative Automation Bundle definition for Estudos.
-# The Databricks extension requires databricks.yml configuration file.
-# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
-
 bundle:
-  name: Estudos
+  name: estudos_medalhao
+
+variables:
+  warehouse_id:
+    description: ID do SQL Warehouse
+    default: "6d7cf9ce92896d22"
+
+resources:
+  jobs:
+    pipeline_medalhao:
+      name: pipeline-medalhao-${bundle.target}
+
+      queue:
+        enabled: true
+
+      max_concurrent_runs: 1
+
+      tasks:
+        # Garante que a tabela Bronze exista.
+        - task_key: preparar_bronze
+          sql_task:
+            file:
+              path: ${workspace.file_path}/SQL/medalhão/bronze.sql
+              source: WORKSPACE
+            warehouse_id: ${var.warehouse_id}
+
+        # Insere os dados sintéticos na Bronze.
+        - task_key: carregar_bronze
+          depends_on:
+            - task_key: preparar_bronze
+          spark_python_task:
+            python_file: ./SQL/medalhão/insercao.py
+            parameters:
+              - --tabela-bronze
+              - workspace.medalhao.bronze
+              - --quantidade
+              - "50"
+              - --previa
+              - "10"
+          environment_key: ambiente_python
+
+        # Trata os dados da Bronze.
+        - task_key: processar_silver
+          depends_on:
+            - task_key: carregar_bronze
+          sql_task:
+            file:
+              path: ${workspace.file_path}/SQL/medalhão/silver.sql
+              source: WORKSPACE
+            warehouse_id: ${var.warehouse_id}
+
+        # Publica as tabelas e views analíticas.
+        - task_key: publicar_gold
+          depends_on:
+            - task_key: processar_silver
+          sql_task:
+            file:
+              path: ${workspace.file_path}/SQL/medalhão/gold.sql
+              source: WORKSPACE
+            warehouse_id: ${var.warehouse_id}
+
+      environments:
+        - environment_key: ambiente_python
+          spec:
+            environment_version: "5"
+
+      # Ative somente depois de validar manualmente.
+      schedule:
+        quartz_cron_expression: "0 0 8 * * ?"
+        timezone_id: America/Sao_Paulo
+        pause_status: UNPAUSED
 
 targets:
   dev:
     mode: development
     default: true
+
     workspace:
       host: https://dbc-29659b3d-683a.cloud.databricks.com
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
 
-  ## Optionally, there could be 'staging' or 'prod' targets here.
-  #
-  # prod:
-  #   workspace:
-  #     host: https://dbc-29659b3d-683a.cloud.databricks.com
+  prod:
+    mode: production
+
+    workspace:
+      host: https://dbc-29659b3d-683a.cloud.databricks.com
+      root_path: /Workspace/Shared/.bundle/${bundle.name}/${bundle.target}

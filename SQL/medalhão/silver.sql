@@ -1,7 +1,10 @@
+use catalog workspace;
+create schema if not exists silver;
+
 create table if not exists silver.UsuarioSnapshot(
     SkObservacao bigint generated always as identity primary key,
     CargaBronze STRING not NULL 
-        references bronze.CargaUsuario(CargaBronze),
+        references workspace.medalhao.Bronze(CargaBronze),
     IdUsuarioOrigem bigint not NULL
         check (IdUsuarioOrigem > 0),
     NomeUsuario STRING not NULL
@@ -34,7 +37,7 @@ create table if not exists silver.UsuarioSnapshot(
 );
 
 -- Determina se o ID é primo sem converter bigint para ponto flutuante.
-create or replace function silver.EhPrimo(Numero bigint)
+create or replace function workspace.silver.EhPrimo(Numero bigint)
 returns boolean
 language python
 as $$
@@ -58,18 +61,18 @@ $$;
 -- Aumento de 200% significa que a nova renda é três vezes a anterior.
 merge into silver.UsuarioSnapshot as s
 using (
-    with DadosExtraidos as (
-        select
-            b.CargaBronze,
-            j:pkinteracao::bigint as IdUsuarioOrigem,
-            j:nomeusuario::string as NomeUsuario,
-            j:tier::smallint as Tier,
-            nullif(j:rendamensal::string, '')::decimal(14,2) as RendaMensal,
-            j:mensagem::string as Mensagem,
-            j:datainsercao::timestamp as DataInsercaoOrigem,
-            j:dataatualizacao::timestamp as DataAtualizacaoOrigem
-        from bronze.CargaUsuario as b
-        lateral view explode(from_json(to_json(b.DadoBruto), 'ARRAY<VARIANT>')) as j
+    WITH DadosExtraidos AS (
+    SELECT
+        b.CargaBronze,
+        j.value:pkinteracao::BIGINT AS IdUsuarioOrigem,
+        j.value:nomeusuario::STRING AS NomeUsuario,
+        j.value:tier::SMALLINT AS Tier,
+        NULLIF(j.value:rendamensal::STRING, '')::DECIMAL(14,2) AS RendaMensal,
+        j.value:mensagem::STRING AS Mensagem,
+        j.value:datainsercao::TIMESTAMP AS DataInsercaoOrigem,
+        j.value:dataatualizacao::TIMESTAMP AS DataAtualizacaoOrigem
+    FROM workspace.medalhao.Bronze AS b,
+    LATERAL variant_explode(b.DadoBruto) AS j
     ),
     DadosTransformados as (
         select
@@ -77,12 +80,12 @@ using (
             case
                 when d.RendaMensal is null then null
                 when d.IdUsuarioOrigem % 6 = 0 then floor(d.RendaMensal * 3)
-                when silver.EhPrimo(d.IdUsuarioOrigem) then floor(d.RendaMensal * 0.90)
+                when workspace.silver.EhPrimo(d.IdUsuarioOrigem) then floor(d.RendaMensal * 0.90)
                 else d.RendaMensal
             end as RendaMensalNova,
             case
                 when d.IdUsuarioOrigem % 6 = 0 then 'AUMENTO_200_POR_CENTO'
-                when silver.EhPrimo(d.IdUsuarioOrigem) then 'REDUCAO_10_POR_CENTO'
+                when workspace.silver.EhPrimo(d.IdUsuarioOrigem) then 'REDUCAO_10_POR_CENTO'
                 else 'SEM_ALTERACAO'
             end as RegraRenda
         from DadosExtraidos as d

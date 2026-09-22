@@ -387,7 +387,7 @@ def FnInserirCargaBronze(
             Fonte.`NomeArquivo`,
             Fonte.`HashArquivo`,
             Fonte.`DataIngestao`,
-            Fonte.`DadoBruto`
+            parse_json(Fonte.`DadoBruto`)
         )
         """
     )
